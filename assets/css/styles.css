@@ -12,6 +12,9 @@ body {
 }
 
 header {
+    position: fixed;
+    top:0;
+    z-index:100;
     background-color: #ffffff;
     border-bottom:solid;
     border-bottom-color:#cccccc;
@@ -53,6 +56,7 @@ nav {
 
 main {
     position: relative;
+    top: 100px;
     width: 960px;
     left:2%;
     margin:auto;
@@ -247,4 +251,231 @@ footer {
     font-size:14px;
     margin:10% auto 0px auto; 
 }
+/* ------------------------------ MEDIA QUERIES START HERE ---------------------- */
+/*==================== MAX 980px BELOW ==================== */
+@media screen and (max-width:980px) {
+    .head_content_container {  
+        width:660px;
+    }
+    
+    .name_box {
+        left: 3%;
+        width:250px;
+    }
+    
+    
+    #berk_pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 80%;
+        float:none;                                    
+    }
 
+    main {
+        width: 660px;
+        left:4%;
+    }
+    
+    section {
+        width: 400px;        
+        padding: 10px;
+        overflow: auto;
+    }
+
+    aside { 
+        padding:10px;        
+        width:250px;
+    }
+    
+    footer { 
+        bottom:0%;
+        padding: 25px;
+        margin:20% auto 0px auto; 
+    }
+
+    .anta,
+    .volc,
+    .eq,
+    .oil,
+    .med {
+        display: block;
+        margin: 20px auto 20px auto;
+        width: 80%;
+        float: none;
+    }
+
+    .port_ico {    
+        width: 100%;
+    }
+}
+/*==================== MAX 768px BELOW ==================== */
+@media screen and (max-width:768px) {
+    .head_content_container {  
+        left:0%;
+        width:700px;
+        margin:auto;
+    }
+    
+    .name_box {
+        left: 0%;
+        width:250px;
+    }
+    
+    main {
+        left:0%;
+        width: 700px;
+        margin:auto;
+    }
+    
+    section {
+        position: relative;
+        left:0%;
+        width: 690px;        
+        padding: 10px;
+        overflow: auto;
+    }
+
+    #berk_pic {
+        width: 60%;
+        height: 60%;    
+        float:left;   
+        margin:10px 30px 10px 0px;                            
+    }
+
+    aside { 
+        position: relative;
+        left:0%;
+        width: 690px;  
+        padding:10px;     
+        margin:25px 0px 25px 0px;   
+    }
+    
+    footer { 
+        bottom:0%;
+        padding: 25px;
+        margin:20% auto 0px auto; 
+        left:0%;
+        right:0%;
+    }
+
+    .anta,
+    .volc,
+    .eq,
+    .oil,
+    .med {
+        width: 40%;
+        float: left;
+        margin: 29px;
+    }
+
+    .port_ico {    
+        width: 100%;
+    }
+
+}
+/*==================== MAX 640px BELOW ==================== */
+@media screen and (max-width:640px) {
+    header {
+        position: static;
+        top:0;
+    }
+    .head_content_container { 
+        position:static; 
+        left:0%;
+        right:0%;
+        width:100%;
+        margin:auto;
+        padding:0px;
+    }
+    
+    .name_box {
+        position:static; 
+        left: 0%;
+        top:0%;
+        width:100%;
+        padding:10px;
+    }
+
+    nav{
+        position:static; 
+        bottom:10%;
+        width:100%;
+        margin:auto;
+        top:10px;
+        text-align: center;
+    }
+    
+    .inlink {
+        position:relative;
+        left:-3%;
+        padding-right: 10%;
+    }
+    .portlink {
+        position:relative;
+        left:-5%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .contlink {
+        position:relative;
+        left:2%;     
+    }
+
+    main {
+        top: 10px;
+        left:0%;
+        width: 100%;
+        margin:auto;
+    }
+    
+    section {
+        position: relative;
+        left:5%;
+        width: 90%;        
+        padding: 10px;
+        margin-top:5%;
+    }
+
+    #berk_pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 60%;
+        float:none;                       
+    }
+
+    aside { 
+        position: relative;
+        left:5%;
+        width: 90%;  
+        padding:10px;     
+        margin:25px 0px 25px 0px;   
+        margin-top:5%;
+    }
+    
+    footer { 
+        position: static;
+        bottom:0%;
+        left:0%;
+        right:0%;
+    }
+
+    .anta,
+    .volc,
+    .eq,
+    .oil,
+    .med {
+        display: block;
+        margin: 10px auto 10px auto;
+        width: 80%;
+        float: none;
+    }
+
+    .port_ico {    
+        width: 100%;
+    }
+
+}
