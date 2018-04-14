@@ -143,9 +143,7 @@ form {
 .volc,
 .eq,
 .oil,
-.med,
-.med2,
-.med3  {
+.med {
     position:relative;
     top:0px;
     right:0px;
@@ -154,6 +152,18 @@ form {
     width: 40%;
     float: left;
     margin: 29px;
+}
+
+.med2 {
+    position:relative;
+    top:0px;
+    right:0px;
+    box-sizing: border-box;
+    padding:0px;
+    width: 40%;
+    clear: left;
+    float: left;
+    margin: 29px;    
 }
 
 .port_ico {    
@@ -301,9 +311,7 @@ footer {
     .volc,
     .eq,
     .oil,
-    .med,
-    .med2,
-    .med3 {
+    .med {
         display: block;
         margin: 20px auto 20px auto;
         width: 80%;
@@ -368,9 +376,7 @@ footer {
     .volc,
     .eq,
     .oil,
-    .med,
-    .med2,
-    .med3 {
+    .med {
         width: 40%;
         float: left;
         margin: 29px;
@@ -473,9 +479,7 @@ footer {
     .volc,
     .eq,
     .oil,
-    .med,
-    .med2,
-    .med3 {
+    .med {
         display: block;
         margin: 10px auto 10px auto;
         width: 80%;
